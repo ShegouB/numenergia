@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { View, Text, ActivityIndicator, Image, StyleSheet, Alert } from 'react-native';
 import * as Location from 'expo-location';
-import { fetchWeatherByCity } from '../services/weatherApi';
+import { getWeatherByCoords } from '../services/weatherApi';
 
 export default function WeatherScreen() {
   const [weather, setWeather] = useState<null | {
