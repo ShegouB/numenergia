@@ -37,6 +37,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "0cf2283a-f024-444b-8d90-c6adb0f73aa7"
+      }
+    },
+    "owner": "shegouboris"
   }
 }
